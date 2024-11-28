@@ -1,0 +1,23 @@
+* { font-family: "Roboto Condensed", Roboto, Helvetica, Arial; }
+.select2-selection { height:38px !important; line-height: 38px; border-radius: 4px !important; outline: 0; border-color: rgb(220,220,220) !important; }
+.select2-container--default .select2-selection--single .select2-selection__rendered { line-height: 38px !important; margin-left: 4px !important; }
+.select2-container--default .select2-selection--single { border:1px solid #ced4da;  }
+label { margin-top:1rem; font-size:0.9rem; }
+.table tbody td { cursor:pointer; }
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('RobotoCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('RobotoCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
